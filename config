@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "new"]
+	url = https://github.com/Ranjeetkumar4940/Medicine_recommendation_model.git
+	fetch = +refs/heads/*:refs/remotes/new/*
+[remote "origin"]
+	url = https://github.com/Ranjeetkumar4940/medicine_recommendation_system.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
